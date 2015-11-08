@@ -4,14 +4,17 @@
   <meta charset="utf-8">
   <title>Code Feed</title>
   <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/react/react.js"></script>
+  <script src="bower_components/react/react-dom.js"></script>
   <script src="js/main.js"></script>
   <script src="js/codefeed-controller.js"></script>
 </head>
 <body>
-
+  <h1>Angular + React</h1>
   <div ng-controller="CodeFeedCtrl">
     {{name}}
   </div>
-
+  <div id='react-view'></div>
+  <script>ReactDOM.render(React.createElement('h2', null, 'test string'),  document.getElementById('react-view'));</script>
 </body>
 </html>

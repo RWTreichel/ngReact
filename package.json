@@ -16,5 +16,16 @@
   "bugs": {
     "url": "https://github.com/RWTreichel/ngReact/issues"
   },
+   "dependencies": {
+    "jsx-loader": "0.12.2",
+    "sort-by": "1.1.0",
+    "webpack": "1.4.15",
+    "webpack-dev-server": "1.7.0"
+  },
+  "devDependencies": {
+    "6to5-core": "3.6.0",
+    "6to5-loader": "3.0.0",
+    "expect": "1.6.0"
+  },
   "homepage": "https://github.com/RWTreichel/ngReact#readme"
 }
