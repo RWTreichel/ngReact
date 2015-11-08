@@ -4,6 +4,7 @@
   "description": "Experiments and other fun stuff involving Angular + React",
   "main": "index.js",
   "scripts": {
+    "start": "node server/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,16 +17,16 @@
   "bugs": {
     "url": "https://github.com/RWTreichel/ngReact/issues"
   },
-   "dependencies": {
-    "jsx-loader": "0.12.2",
-    "sort-by": "1.1.0",
-    "webpack": "1.4.15",
-    "webpack-dev-server": "1.7.0"
+ "dependencies": {
+	"jsx-loader": "0.12.2",
+	"sort-by": "1.1.0",
+	"webpack": "1.4.15",
+	"webpack-dev-server": "1.7.0",
+	"express": "^4.13.3"
   },
   "devDependencies": {
     "6to5-core": "3.6.0",
     "6to5-loader": "3.0.0",
     "expect": "1.6.0"
   },
-  "homepage": "https://github.com/RWTreichel/ngReact#readme"
 }
