@@ -15,10 +15,11 @@
 <body ng-app="codefeedApp" ng-strict-di="true">
   <h1>Angular + React</h1>
   <div ng-controller="CodeFeedCtrl"  >
-    <pencode name='name'/>
-    <!--react-component name="pen" props="nameObj"/-->
-    <!--pre>{{data}}</pre>
-    <pre ng-repeat="language in languages">{{language}}</pre-->
+    <div><pencode name='name'/></div>
+    <div><react-component name="pen" props="nameObj"/></div>
+    <pre>{{data}}</pre>
+    <pre ng-repeat="language in languages">{{language}}</pre>
+    <input type='text' ng-model='name'/>
   </div>
   <div id='react-view'></div>
   <script>ReactDOM.render(React.createElement('h2', null, 'test string'),  document.getElementById('react-view'));
