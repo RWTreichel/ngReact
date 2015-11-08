@@ -1,0 +1,1 @@
+var codefeedApp = angular.module('codefeedApp', []);

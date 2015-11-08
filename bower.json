@@ -1,0 +1,21 @@
+{
+  "name": "ng-react",
+  "description": "Experiments and other fun stuff involving Angular + React",
+  "main": "index.js",
+  "authors": [
+    "Dick Treichel <rwtreichel@gmail.com> (http://richardtreichel.com)"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/RWTreichel/ngReact",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7"
+  }
+}
