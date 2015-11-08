@@ -1,1 +1,1 @@
-var codefeedApp = angular.module('codefeedApp', []);
+var codefeedApp = angular.module('codefeedApp', ['react']);
