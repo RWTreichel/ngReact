@@ -17,7 +17,8 @@
   ],
   "dependencies": {
     "angular": "~1.4.7",
-    "react": "*"
-    "underscore": "~1.8.3"
+    "react": "*",
+    "underscore": "~1.8.3",
+    "ngReact": "*"
   }
 }
