@@ -4,6 +4,7 @@
   "description": "Experiments and other fun stuff involving Angular + React",
   "main": "index.js",
   "scripts": {
+    "start": "node server/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/RWTreichel/ngReact/issues"
   },
-  "homepage": "https://github.com/RWTreichel/ngReact#readme"
+  "homepage": "https://github.com/RWTreichel/ngReact#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
 }
