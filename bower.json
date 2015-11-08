@@ -19,6 +19,7 @@
     "angular": "~1.4.7",
     "react": "*",
     "underscore": "~1.8.3",
-    "ngReact": "*"
+    "ngReact": "*",
+    "angular-route": "~1.4.7"
   }
 }
